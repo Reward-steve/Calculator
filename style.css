@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+
+.Calculator {
+    width: 25%;
+    padding: 5px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.new-width {
+    width: 36%;
+}
+
+.new-width1 {
+    width: 68%;
+}
+
+.output-container {
+    background-color: #211f1f;
+    width: 100%;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.display {
+    margin: 0;
+    height: 70px;
+    background-color: #211f1f;
+    width: 98.5%;
+    color: white;
+    font-size: 40px;
+    font-family: auto;
+    font-weight: bold;
+}
+
+.display::placeholder {
+    color: white;
+
+}
+
+.displayAtr {
+    color: white;
+    font-size: 40px;
+}
+
+.result {
+    width: 100%;
+    margin: 0;
+    height: 65px;
+    background-color: #211f1f;
+    text-align: end;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: gray;
+    padding: 25px 0 0;
+}
+
+.num-keys {
+    background-color: black;
+    height: 395px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculator-key {
+    color: blue;
+    width: 19.8%;
+    height: 60px;
+    background-color: rgb(34, 32, 32);
+    font-size: 25px;
+    text-align: center;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.fas.fa-backspace {
+    color: red;
+    background: black;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.one {
+    height: 100px;
+    background: blue;
+    color: black;
+    font-weight: bold;
+}
+
+.two {
+    width: 45%;
+    position: relative;
+    top: -75px;
+    background: blue;
+    color: black;
+    font-weight: bold;
+}
+
+.three {
+    position: relative;
+    top: -38px;
+    background-color: rgb(34, 32, 32);
+}
+
+.four {
+    position: relative;
+    top: -75px;
+    background: blue;
+    color: black;
+    font-weight: bold;
+}
+
+.five {
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.six {
+    background: blue;
+    color: black;
+    font-weight: bold;
+}
+
+.scientific {
+    height: 20px;
+    font-family: monospace;
+    font-size: 16px;
+    width: 60px;
+}
+
+sup {
+    font-size: 15px;
+}
+
+.sign {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    bottom: 459.5px;
+    left: 310px;
+    display: none;
+}
+
+.sci-btn {
+    width: 38.5%;
+}
+
+.show {
+    display: ruby;
+}
+
+.toggle {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.square {
+    width: auto;
+    height: 50px;
+    border: 2px solid wheat;
+}
+
+/* .overall {
+    display: flex;
+} */
+
+.display {
+    border: none;
+    outline: none;
+}
